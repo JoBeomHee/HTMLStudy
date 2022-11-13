@@ -1,0 +1,61 @@
+.container {
+    background: beige;
+    height: 100vh;
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap;
+     flex-flow: column nowrap; 
+    justify-content: space-between; main axis
+    align-items: baseline;
+    align-content: center;  */
+}
+
+.item {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+}
+
+.item1 {
+    background: red;
+    flex-grow: 1;
+    flex-shrink: 2;
+
+    flex-basis: auto;
+}
+
+.item2 {
+    background: rgb(184, 231, 15);
+}
+
+.item3 {
+    background: rgb(196, 142, 142);
+}
+
+.item4 {
+    background: rgb(47, 27, 224);
+}
+
+.item5 {
+    background: rgb(228, 18, 158);
+}
+
+.item6 {
+    background: rgb(16, 216, 33);
+}
+
+.item7 {
+    background: rgb(53, 79, 83);
+}
+
+.item8 {
+    background: rgb(230, 163, 20);
+}
+
+.item9 {
+    background: rgb(138, 100, 57);
+}
+
+.item10 {
+    background: rgb(177, 39, 241);
+}

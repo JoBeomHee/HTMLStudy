@@ -1,0 +1,8 @@
+.menu {
+    list-style: decimal-leading-zero;
+}
+
+.menu2 {
+    list-style: none;
+    padding:0;
+}

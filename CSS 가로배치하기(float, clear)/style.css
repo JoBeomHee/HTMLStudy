@@ -1,0 +1,46 @@
+.parent {
+    border: 5px solid red;
+    width: 600px;
+    /* height: 200px; */
+    overflow: hidden; /*자식 요소에서 flot 를 쓰면 부모요소의 높이 값을 잃어 버린다. */
+}
+
+.child {
+    background-color: gold;
+    width: 200px;
+    height: 200px;
+    /* float: left; */
+    margin: auto; /*Block 요소만 오직 중앙으로 보낼 수 있습니다.*/
+
+    /*Inline 요소를 중앙으로 보낼 떄에는 부모 요소에 text-align: center;*/
+    /*Block 요소를 중앙으로 보낼 떄에는 자기 자긴에 margin: auto;*/
+}
+
+.parent1 {
+    border: 5px solid red;
+    width: 600px;
+}
+
+.top {
+    background-color: purple;
+    height: 50px;
+}
+
+.left {
+    background-color: skyblue;
+    height: 100px;
+    width: 200px;
+    float: left;
+}
+
+.right {
+    background-color: orange;
+    height: 100px;
+    width: 400px;
+    float: right;
+}
+
+.clear {
+    background-color: purple;
+    height: 50px;
+}
